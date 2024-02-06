@@ -3,3 +3,40 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+
+body {
+    background-color:#D4A76A;
+}
+
+header {
+    background-color:#FFDBAA;
+    color:#553100;
+}
+
+button {
+    background-color:#805215;
+    color:white;
+}
+
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-item a {
+    display: block;
+    padding: 10px;
+    background-color: #805215; /* Change this to the color you want */
+    color: white; /* Change this to the color you want */
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .nav-item a:hover {
+    background-color: #553100; /* Change this to the color you want for hover effect */
+  }
+  
