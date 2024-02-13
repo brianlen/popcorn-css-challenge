@@ -24,8 +24,20 @@ section {
 }
 
 .flex-container {
+  /* flex or grid */
   display: flex;
+  /* row or column */
+  flex-direction: row;
+  /* item distribution on main axis*/
   justify-content: space-around;
+  /* shorthand for flex-direction and flex-wrap */
+  /* flex-flow: row-reverse wrap; */
+  /* align on cross axis */
+  align-items: flex-start;
+  /* nowrap or wrap */
+  flex-wrap: wrap;
+  /* when flex-wrap is on, this controls aligns the wrapped content */
+  align-content: flex-start;
 }
 
 
